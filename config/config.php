@@ -6,9 +6,9 @@ define('DEV', true);
 //Database settings
 $type = 'mysql';
 $server = 'localhost';
-$db = 'htmx';
+$db = 'test_db';
 $port = 3306;
 $charset = 'utf8mb4';
-$username = 'htmx_user';
-$password = 'htmx';
+$username = 'testtable_admin';
+$password = 'testtable_admin';
 $dsn = "$type:host=$server;dbname=$db;port=$port;charset=$charset";
